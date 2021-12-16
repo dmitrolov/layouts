@@ -1,0 +1,110 @@
+.content-wrapp {
+    max-width: 1590px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+    background: #000;
+
+    &_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(216,216,216, .55);
+        &-left{
+            color: #ffffff;
+            font-family: "Samsung Sharp Sans", sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+        }
+        &_btn{
+            padding: 20px 55px;
+            color: #000000;
+            font-family: "Samsung One";
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            /* Text style for "BUY NOW" */
+            letter-spacing: 0.52px;
+            background-color: #dbb4ad;
+            background-image: linear-gradient(to top, #dbb3a9 0%, #e4c8c2 100%);
+            border: none;
+            text-decoration: none;
+        }
+        .content-wrapp{
+            display: flex;
+            flex-direction: revert;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+        }
+    }
+    &_bottom{
+        border-bottom: 1px solid rgba(216,216,216, .55);
+        ul.menu{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            li{
+                margin-right: 50px;
+                a{
+                    padding: 12px 0;
+                    color: #ffffff;
+                    font-family: "Samsung One";
+                    font-size: 12px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 0.48px;
+                    text-decoration: none;
+                    display: block;
+                    position: relative;
+                }
+                &.active a:after{
+                    content: '';
+                    height: 3px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    position: absolute;
+                    left: 0;
+                    bottom: -1px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1500px) {
+    .header{
+        &_top{
+            &_btn{
+                margin-right: -15px;
+                padding: 15px 30px;
+            }
+            &-left{
+
+                font-size: 13px;
+
+            }
+        }
+        &_bottom{
+            // overflow: scroll;
+            ul.menu{
+                padding: 0 15px;
+                li{
+                    margin-right: 20px;
+                    a{
+                        width: max-content;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .header{
+        &_bottom{
+            overflow-x: scroll;
+        }
+    }
+}

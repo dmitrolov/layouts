@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1439px){
+    body{
+        /* background-color: red; */
+    }
+
+    .s00 .content{
+        display: block !important;
+    }
+    .s00 .image-simulated-text{
+        width:600px;
+    }
+
+    .s00 img{
+        margin-top: 90px;
+        width: 740px;
+        height: 595px;
+        margin-bottom: -4px;
+    }
+
+    h2{
+        font-family: "Samsung Sharp Sans";
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 76px;
+        text-align: left;
+    }
+
+    h3{
+        text-align: left;
+        font-size: 44px;
+        font-weight: 600;
+        
+    }
+
+    h4{
+        text-align: left;
+    }
+
+    
+
+    .powerphone{
+        margin: 100px 0 0 60px;
+        width:580px;
+        text-align: left;
+    }
+
+    .s01{
+        padding:100px 0 0 60px;
+    }
+
+    .s01 h3{
+        max-width: 500px;
+        
+    }
+
+
+}

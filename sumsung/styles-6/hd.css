@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1919px){
+    body{
+        /* background-color: red; */
+    }
+
+    .s01 img{
+        width:100%;
+
+    }
+
+    h2{
+        font-family: "Samsung Sharp Sans";
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    h4{
+        font-family: "Samsung One";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        /* Text style for "ECOSYSTEM" */
+        letter-spacing: 1.06px;
+    }
+
+    h3{
+        color: #000000;
+        font-family: "Samsung Sharp Sans";
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .powerphone{
+        padding-top: 137px;
+    }
+
+    .desc-acs{
+        font-family: "Samsung One";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+    .watch{
+        margin-top:154px;
+    }
+    .node{
+        width: 600px;
+        height: 641px;
+
+    }
+    .watch-img > img{
+        width: 255px;
+        height: 430px;
+    }
+
+    .watch-desc{
+        padding:95px 0 0 80px;
+    }
+
+    .small-desc{
+        margin-top: 20px;;
+        color: #000000;
+        font-family: "Samsung One";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .buy{
+
+        border-radius: 8px;
+        border: 1px solid #000000;
+    }
+
+    .buds-desc{
+        margin-top: 117px;
+    }
+
+    .buds-img{
+        width: 271px !important;
+        height: 178px !important;
+    }
+}
+

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Samsung One -400"; 
+    src: url("../fonts/SamsungOne-400.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Samsung Sharp Sans"; 
+    src: url("../fonts/SamsungSharpSansRegular-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+  
+@font-face {
+    font-family: "Samsung Sharp Sans"; 
+    src: url("../fonts/SamsungSharpSans-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 700; 
+} 
+
+  
+@font-face {
+    font-family: "Signature Samsung"; 
+    src: url("../fonts/") format("truetype"); 
+    font-style: normal; 
+    font-weight: 700; 
+} 

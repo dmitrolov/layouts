@@ -1,0 +1,139 @@
+
+
+@media only screen and (max-width: 1919px){
+    body{
+        /* background-color: red; */
+
+    }
+
+
+    h2{
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    h3{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    h4{
+        font-family: "Samsung One";
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        /* Text style for "Colors" */
+        letter-spacing: 1.21px;
+    }
+
+    h6{
+        font-family: "Samsung Sharp Sans";
+        font-size: 15px;
+        font-weight: 700;
+        /* Text style for "Galaxy Not" */
+        letter-spacing: 1.33px;
+    }
+
+    .s00 img{
+        width: 806px;
+        height: 637px;
+    }
+
+    .powerphone{
+        
+        padding: 137px 0 0 0;
+    }
+
+    .section{
+        padding-top: 140px;
+    }
+
+    .s03 .content{
+        margin-top: 133px;
+    }
+
+    .s03 .content .hd{
+        display: inline-block;
+    
+    }
+
+    .s03b{
+        margin-top: 67px;
+    }
+
+    .s03b .content{
+        margin-top: 62px;
+    }
+
+    .s03b .content .hd{
+        display: inline-block;
+        margin:0 auto;
+        max-width: 1111px;
+        max-height: 579px;
+        margin-left: 70px;
+    }
+
+    .video-description{
+        width:250px;
+    }
+    .pictures img{
+        width:301px;
+        height:485px;
+        margin-left: 72px;
+    }
+
+    .s05_1 img{
+        width: 919px;
+        height: 574px;
+    }
+
+    .about-cameras > *{
+        margin-top: 60px;
+        width:280px;
+    }
+    .about-cameras p{
+        font-family: "Samsung One";
+        font-size: 17px;
+        font-weight: 400;
+        margin-left:0 !important;
+        padding-top: 12px;
+    }
+    
+    .about-cameras .note20{
+        margin-right: 60px;
+    }
+
+    .about-cameras .note20ultra{
+        margin-left:60px;
+    }
+
+    .s05 img{
+        width: 1111px;
+        height: 579px;
+    }
+
+    .s06 .content{
+        margin-top:132px;
+    }
+
+    .s06 img{
+        width: 914px;
+        height: 178px;
+    }
+
+    
+    .s06 p{
+        padding-top: 40px ;
+    }
+
+    .s06 b{
+        width: 179px;
+        height: 33px;
+        color: #000000;
+        font-family: "Signature Samsung";
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
